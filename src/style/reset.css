@@ -29,10 +29,48 @@
   src: url("../fonts/PostNoBillsJaffna-Bold.woff") format("woff2");
 }
 
-body {
-  background-color: black;
-  font-family: "Post No Bills Jaffna", sans-serif;
+:root {
+  --gray: #969696;
+  --white: #fff;
 }
-h1 {
-  color: white;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+body {
+  background-color: #000;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  color: var(--gray);
+  line-height: 1.5;
+  margin: 0;
 }
