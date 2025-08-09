@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/porten.svg" />
@@ -12,7 +12,7 @@
         <div class="top-header">
           <div class="top-header-left">
             <svg class="top-header-icon" width="16" height="16">
-              <use href="/img/icons.svg#icon-phone"></use>
+              <use href="./src/img/icons.svg#icon-phone"></use>
             </svg>
             <a
               class="top-header-number"
@@ -27,15 +27,15 @@
           </div>
           <div class="top-header-right">
             <svg class="top-header-right-icon" width="14" height="14">
-              <use href="/img/icons.svg#icon-log-in"></use>
+              <use href="./src/img/icons.svg#icon-log-in"></use>
             </svg>
-            <a href="#">Вхід / Реєстрація</a>
+            <a class="top-header-right-link" href="#">Вхід / Реєстрація</a>
           </div>
         </div>
 
         <div class="header-main">
+          <a class="header-logo" href="/">PORTEN</a>
           <nav class="header-main-nav">
-            <a class="header-logo" href="/">PORTEN</a>
             <ul class="header-main-list">
               <li class="header-main-item">
                 <a class="header-main-link" href="#">сподобалось</a>
@@ -46,7 +46,6 @@
               <li class="header-main-item">
                 <a class="header-main-link" href="#">налаштування</a>
               </li>
-
               <li class="header-main-item">
                 <a class="header-main-link" href="#"
                   ><svg class="header-main-icon" width="22" height="22">
@@ -63,6 +62,39 @@
               </li>
             </ul>
           </nav>
+          <div class="open-mob-menu">
+            <span class="open-mob-menu1"></span
+            ><span class="open-mob-menu2"></span>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mob-menu" id="mob-menu">
+        <div class="close-mob-menu"></div>
+        <div class="menu-block">
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">сподобалось</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">Особистий кабінет</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">налаштування</a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#"
+                ><svg class="mob-menu-icon" width="22" height="22">
+                  <use href="/src/img/icons.svg#icon-cart"></use></svg
+              ></a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#"
+                ><svg class="mob-menu-icon" width="22" height="22">
+                  <use href="/src/img/icons.svg#icon-search"></use></svg
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
