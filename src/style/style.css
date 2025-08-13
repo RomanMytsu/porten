@@ -204,3 +204,95 @@
   color: var(--white);
   max-width: 370px;
 }
+
+/* Season */
+.season-wrap {
+  padding: 56px 0;
+}
+.season-title {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--white);
+  margin-bottom: 25px;
+}
+.season-line {
+  border: 1px solid var(--white);
+  width: 80px;
+  margin-bottom: 25px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191b1c;
+  padding: 20px 16px 24px 19px;
+}
+.swiper-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+.swiper-clock-title {
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white, #fff);
+  margin-bottom: 10px;
+}
+.swiper-clock-text {
+  font-family: "Playfair Display";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--light-gray);
+}
+
+.new-collection {
+  background-image: linear-gradient(
+      rgba(15, 15, 15, 0.5),
+      rgba(15, 15, 15, 0.5)
+    ),
+    url(/src/img/new-collection-img.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.new-collection-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 220px 47px 15px;
+}
+.new-collection-title {
+  color: var(--white);
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.new-collection-line {
+  border: 1px solid var(--white);
+  width: 73px;
+  margin: 15px 0;
+}
+.new-collection-link {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: transparent;
+}
