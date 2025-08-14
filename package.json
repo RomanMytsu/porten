@@ -3,10 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://romanmytsu.github.io/porten/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/porten/",
     "preview": "vite preview"
   },
   "devDependencies": {
