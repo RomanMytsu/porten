@@ -334,3 +334,77 @@
   border: 1px solid var(--white);
   padding: 8px 14px;
 }
+
+/* Arrival */
+.arrival {
+  padding: 60px 0 75px;
+}
+.arrival-karusel {
+  margin-top: 21.5px;
+}
+.arrival-title {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrival-item {
+  max-width: 260px;
+}
+
+.swiper-slide img {
+  background-color: #191b1c;
+  padding: 27px 22px 34px 23px;
+  border-radius: 10px;
+}
+.arrival-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+.arrival-content-title {
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white);
+}
+.arrival-content-text {
+  font-family: "Playfair Display";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--light-gray);
+}
+.blur {
+  filter: blur(2px);
+}
+.swipe-link-wrap {
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  z-index: 1;
+}
+.swipe-link {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 12px;
+  line-height: normal;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 16px 14px;
+  cursor: pointer;
+}

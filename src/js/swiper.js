@@ -1,23 +1,34 @@
-// import Swiper from "swiper";
-// import "swiper/css";
+import Swiper from "swiper";
+import "swiper/css";
 
 // const swiper = new Swiper(".swiper", {
 //   slidesPerView: 1,
-//   spaceBetween: 20,
+//   spaceBetween: 23,
 //   breakpoints: {
 //     768: {
 //       slidesPerView: 2,
-//       spaceBetween: 30,
-//     },
-//     1024: {
-//       slidesPerView: 3,
-//       spaceBetween: 35,
-//     },
-//     1440: {
-//       spaceBetween: 40,
-//     },
-//     1920: {
-//       spaceBetween: 50,
 //     },
 //   },
 // });
+
+let swiper = null;
+
+function initSwiper() {
+  if (window.innerWidth < 1024 && swiper === null) {
+    swiper = new Swiper(".swiper", {
+      slidesPerView: 1,
+      spaceBetween: 5,
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+      },
+    });
+  } else if (window.innerWidth >= 1024 && swiper !== null) {
+    swiper.destroy(true, true);
+    swiper = null;
+  }
+}
+initSwiper();
+
+window.addEventListener("resize", initSwiper);

@@ -93,6 +93,9 @@
     max-width: 540px;
     margin-bottom: 38px;
   }
+  .arrival-karusel {
+    margin-top: 41.5px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -181,6 +184,16 @@
   .collection-content-link {
     font-size: 14px;
   }
+  /* Arrival */
+  .arrival-karusel {
+    margin-top: 61.5px;
+  }
+  .swiper-wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -236,6 +249,26 @@
   .collection-content-text {
     max-width: 1078px;
     margin-bottom: 45px;
+  }
+  /* Arrival */
+  .arrival {
+    padding: 90px 0 120px;
+  }
+  .arrival-karusel {
+    margin-top: 81.5px;
+  }
+  .arrival-title {
+    font-size: 28px;
+  }
+  .arrival-content {
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .arrival-content-title {
+    font-size: 16px;
+  }
+  .arrival-content-text {
+    font-size: 14px;
   }
 }
 
@@ -332,6 +365,27 @@
     margin-bottom: 45px;
   }
   .collection-content-link {
+    font-size: 18px;
+    padding: 12px 28px;
+  }
+  /* Arrival */
+  .arrival {
+    padding: 120px 0 150px;
+  }
+  .arrival-title {
+    font-size: 36px;
+  }
+  .arrival-content-title {
+    font-size: 18px;
+  }
+  .arrival-content-text {
+    font-size: 14px;
+  }
+  .swipe-link-wrap {
+    top: 42%;
+    left: 14%;
+  }
+  .swipe-link {
     font-size: 18px;
     padding: 12px 28px;
   }
