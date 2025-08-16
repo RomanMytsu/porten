@@ -408,3 +408,67 @@
   padding: 16px 14px;
   cursor: pointer;
 }
+
+/* Info */
+.info {
+  background-color: #0f0f0f;
+  padding: 23px 0 1px;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info-title {
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.info-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 26px;
+}
+.info-content-wrap {
+  margin-top: 15px;
+}
+.info-subtitle {
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 14px;
+}
+.info-text {
+  font-size: 10px;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+.hastag-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.hastag-link {
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 6px 14px;
+  cursor: pointer;
+}
+.hastag-info {
+  font-size: 12px;
+  line-height: normal;
+  color: var(--white);
+}
