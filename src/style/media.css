@@ -100,6 +100,10 @@
   .info {
     padding: 33px 0 1px;
   }
+  /* Partners */
+  .partners {
+    padding: 59px 0 83px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -221,6 +225,13 @@
   .info-content-wrap {
     margin-top: 0px;
   }
+  /* Partners */
+  .partners-title {
+    font-size: 28px;
+  }
+  .partners-list {
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -318,6 +329,13 @@
   }
   .hastag-info {
     font-size: 16px;
+  }
+  /* Partners */
+  .partners-title {
+    font-size: 32px;
+  }
+  .partners-list {
+    margin-top: 66px;
   }
 }
 
@@ -457,5 +475,12 @@
   }
   .hastag-info {
     font-size: 18px;
+  }
+  /* Partners */
+  .partners {
+    padding: 89px 0 113px;
+  }
+  .partners-title {
+    font-size: 36px;
   }
 }

@@ -472,3 +472,31 @@
   line-height: normal;
   color: var(--white);
 }
+
+/* Partners */
+.partners {
+  background-color: #0f0f0f;
+  padding: 39px 0 63px;
+}
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.partners-title {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 36px;
+}
