@@ -159,7 +159,7 @@
       rgba(15, 15, 15, 0.5),
       rgba(15, 15, 15, 0.5)
     ),
-    url(/src/img/hero-bcg.png);
+    url(./src/img/hero-bcg.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -263,7 +263,7 @@
       rgba(15, 15, 15, 0.5),
       rgba(15, 15, 15, 0.5)
     ),
-    url(/src/img/new-collection-img.png);
+    url(./src/img/new-collection-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -507,7 +507,7 @@
       rgba(15, 15, 15, 0.5),
       rgba(15, 15, 15, 0.5)
     ),
-    url(/src/img/footer-bg.png);
+    url(./src/img/footer-bg.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
