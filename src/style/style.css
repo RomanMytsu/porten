@@ -570,6 +570,7 @@
   background-color: #0f0f0f;
   border: none;
   padding: 10px 20px;
+  cursor: pointer;
 }
 .footer-line {
   background-color: #0f0f0f;
