@@ -1,16 +1,6 @@
 import Swiper from "swiper";
 import "swiper/css";
 
-// const swiper = new Swiper(".swiper", {
-//   slidesPerView: 1,
-//   spaceBetween: 23,
-//   breakpoints: {
-//     768: {
-//       slidesPerView: 2,
-//     },
-//   },
-// });
-
 let swiper = null;
 
 function initSwiper() {
